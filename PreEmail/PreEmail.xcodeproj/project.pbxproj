@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D44DD1E157CAF300024E11B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D44DD1D157CAF300024E11B /* UIKit.framework */; };
+		1D44DD20157CAF300024E11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D44DD1F157CAF300024E11B /* Foundation.framework */; };
+		1D44DD22157CAF300024E11B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D44DD21157CAF300024E11B /* CoreGraphics.framework */; };
+		1D44DD28157CAF300024E11B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D44DD26157CAF300024E11B /* InfoPlist.strings */; };
+		1D44DD2A157CAF300024E11B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D44DD29157CAF300024E11B /* main.m */; };
+		1D44DD2E157CAF300024E11B /* STEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D44DD2D157CAF300024E11B /* STEAppDelegate.m */; };
+		1D44DD31157CAF300024E11B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D44DD2F157CAF300024E11B /* MainStoryboard.storyboard */; };
+		1D44DD34157CAF300024E11B /* STEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D44DD33157CAF300024E11B /* STEViewController.m */; };
+		1D44DD3C157CAF300024E11B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D44DD3B157CAF300024E11B /* SenTestingKit.framework */; };
+		1D44DD3D157CAF300024E11B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D44DD1D157CAF300024E11B /* UIKit.framework */; };
+		1D44DD3E157CAF300024E11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D44DD1F157CAF300024E11B /* Foundation.framework */; };
+		1D44DD46157CAF300024E11B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D44DD44157CAF300024E11B /* InfoPlist.strings */; };
+		1D44DD49157CAF300024E11B /* PreEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D44DD48157CAF300024E11B /* PreEmailTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D44DD3F157CAF300024E11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D44DD10157CAF300024E11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D44DD18157CAF300024E11B;
+			remoteInfo = PreEmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D44DD19157CAF300024E11B /* PreEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D44DD1D157CAF300024E11B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D44DD1F157CAF300024E11B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D44DD21157CAF300024E11B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D44DD25157CAF300024E11B /* PreEmail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreEmail-Info.plist"; sourceTree = "<group>"; };
+		1D44DD27157CAF300024E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D44DD29157CAF300024E11B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D44DD2B157CAF300024E11B /* PreEmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreEmail-Prefix.pch"; sourceTree = "<group>"; };
+		1D44DD2C157CAF300024E11B /* STEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEAppDelegate.h; sourceTree = "<group>"; };
+		1D44DD2D157CAF300024E11B /* STEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEAppDelegate.m; sourceTree = "<group>"; };
+		1D44DD30157CAF300024E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1D44DD32157CAF300024E11B /* STEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEViewController.h; sourceTree = "<group>"; };
+		1D44DD33157CAF300024E11B /* STEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEViewController.m; sourceTree = "<group>"; };
+		1D44DD3A157CAF300024E11B /* PreEmailTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreEmailTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D44DD3B157CAF300024E11B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D44DD43157CAF300024E11B /* PreEmailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreEmailTests-Info.plist"; sourceTree = "<group>"; };
+		1D44DD45157CAF300024E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D44DD47157CAF300024E11B /* PreEmailTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreEmailTests.h; sourceTree = "<group>"; };
+		1D44DD48157CAF300024E11B /* PreEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreEmailTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D44DD16157CAF300024E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D44DD1E157CAF300024E11B /* UIKit.framework in Frameworks */,
+				1D44DD20157CAF300024E11B /* Foundation.framework in Frameworks */,
+				1D44DD22157CAF300024E11B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D44DD36157CAF300024E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D44DD3C157CAF300024E11B /* SenTestingKit.framework in Frameworks */,
+				1D44DD3D157CAF300024E11B /* UIKit.framework in Frameworks */,
+				1D44DD3E157CAF300024E11B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D44DD0E157CAF300024E11B = {
+			isa = PBXGroup;
+			children = (
+				1D44DD23157CAF300024E11B /* PreEmail */,
+				1D44DD41157CAF300024E11B /* PreEmailTests */,
+				1D44DD1C157CAF300024E11B /* Frameworks */,
+				1D44DD1A157CAF300024E11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D44DD1A157CAF300024E11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D44DD19157CAF300024E11B /* PreEmail.app */,
+				1D44DD3A157CAF300024E11B /* PreEmailTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D44DD1C157CAF300024E11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D44DD1D157CAF300024E11B /* UIKit.framework */,
+				1D44DD1F157CAF300024E11B /* Foundation.framework */,
+				1D44DD21157CAF300024E11B /* CoreGraphics.framework */,
+				1D44DD3B157CAF300024E11B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D44DD23157CAF300024E11B /* PreEmail */ = {
+			isa = PBXGroup;
+			children = (
+				1D44DD2C157CAF300024E11B /* STEAppDelegate.h */,
+				1D44DD2D157CAF300024E11B /* STEAppDelegate.m */,
+				1D44DD2F157CAF300024E11B /* MainStoryboard.storyboard */,
+				1D44DD32157CAF300024E11B /* STEViewController.h */,
+				1D44DD33157CAF300024E11B /* STEViewController.m */,
+				1D44DD24157CAF300024E11B /* Supporting Files */,
+			);
+			path = PreEmail;
+			sourceTree = "<group>";
+		};
+		1D44DD24157CAF300024E11B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D44DD25157CAF300024E11B /* PreEmail-Info.plist */,
+				1D44DD26157CAF300024E11B /* InfoPlist.strings */,
+				1D44DD29157CAF300024E11B /* main.m */,
+				1D44DD2B157CAF300024E11B /* PreEmail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D44DD41157CAF300024E11B /* PreEmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D44DD47157CAF300024E11B /* PreEmailTests.h */,
+				1D44DD48157CAF300024E11B /* PreEmailTests.m */,
+				1D44DD42157CAF300024E11B /* Supporting Files */,
+			);
+			path = PreEmailTests;
+			sourceTree = "<group>";
+		};
+		1D44DD42157CAF300024E11B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D44DD43157CAF300024E11B /* PreEmailTests-Info.plist */,
+				1D44DD44157CAF300024E11B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D44DD18157CAF300024E11B /* PreEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D44DD4C157CAF300024E11B /* Build configuration list for PBXNativeTarget "PreEmail" */;
+			buildPhases = (
+				1D44DD15157CAF300024E11B /* Sources */,
+				1D44DD16157CAF300024E11B /* Frameworks */,
+				1D44DD17157CAF300024E11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreEmail;
+			productName = PreEmail;
+			productReference = 1D44DD19157CAF300024E11B /* PreEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D44DD39157CAF300024E11B /* PreEmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D44DD4F157CAF300024E11B /* Build configuration list for PBXNativeTarget "PreEmailTests" */;
+			buildPhases = (
+				1D44DD35157CAF300024E11B /* Sources */,
+				1D44DD36157CAF300024E11B /* Frameworks */,
+				1D44DD37157CAF300024E11B /* Resources */,
+				1D44DD38157CAF300024E11B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D44DD40157CAF300024E11B /* PBXTargetDependency */,
+			);
+			name = PreEmailTests;
+			productName = PreEmailTests;
+			productReference = 1D44DD3A157CAF300024E11B /* PreEmailTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D44DD10157CAF300024E11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STE;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1D44DD13157CAF300024E11B /* Build configuration list for PBXProject "PreEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D44DD0E157CAF300024E11B;
+			productRefGroup = 1D44DD1A157CAF300024E11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D44DD18157CAF300024E11B /* PreEmail */,
+				1D44DD39157CAF300024E11B /* PreEmailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D44DD17157CAF300024E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D44DD28157CAF300024E11B /* InfoPlist.strings in Resources */,
+				1D44DD31157CAF300024E11B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D44DD37157CAF300024E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D44DD46157CAF300024E11B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D44DD38157CAF300024E11B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D44DD15157CAF300024E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D44DD2A157CAF300024E11B /* main.m in Sources */,
+				1D44DD2E157CAF300024E11B /* STEAppDelegate.m in Sources */,
+				1D44DD34157CAF300024E11B /* STEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D44DD35157CAF300024E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D44DD49157CAF300024E11B /* PreEmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D44DD40157CAF300024E11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D44DD18157CAF300024E11B /* PreEmail */;
+			targetProxy = 1D44DD3F157CAF300024E11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D44DD26157CAF300024E11B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D44DD27157CAF300024E11B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D44DD2F157CAF300024E11B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D44DD30157CAF300024E11B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		1D44DD44157CAF300024E11B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D44DD45157CAF300024E11B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D44DD4A157CAF300024E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D44DD4B157CAF300024E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D44DD4D157CAF300024E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreEmail/PreEmail-Prefix.pch";
+				INFOPLIST_FILE = "PreEmail/PreEmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D44DD4E157CAF300024E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreEmail/PreEmail-Prefix.pch";
+				INFOPLIST_FILE = "PreEmail/PreEmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D44DD50157CAF300024E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PreEmail.app/PreEmail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreEmail/PreEmail-Prefix.pch";
+				INFOPLIST_FILE = "PreEmailTests/PreEmailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1D44DD51157CAF300024E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PreEmail.app/PreEmail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreEmail/PreEmail-Prefix.pch";
+				INFOPLIST_FILE = "PreEmailTests/PreEmailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D44DD13157CAF300024E11B /* Build configuration list for PBXProject "PreEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D44DD4A157CAF300024E11B /* Debug */,
+				1D44DD4B157CAF300024E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D44DD4C157CAF300024E11B /* Build configuration list for PBXNativeTarget "PreEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D44DD4D157CAF300024E11B /* Debug */,
+				1D44DD4E157CAF300024E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D44DD4F157CAF300024E11B /* Build configuration list for PBXNativeTarget "PreEmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D44DD50157CAF300024E11B /* Debug */,
+				1D44DD51157CAF300024E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D44DD10157CAF300024E11B /* Project object */;
+}
